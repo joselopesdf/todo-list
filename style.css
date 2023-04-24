@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    
+}
+.tarefas-container{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: black;
+    padding: 40px 20px;
+    border-radius: 20px;
+      
+}
+#tarefas{
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    
+}
+.tarefas{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0px 30px;
+    background-color: black;
+    color: gold;
+    
+
+}
+#adicionar{
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: red;
+    color: gold;
+}
+.eliminar{
+    font-size: 16px;
+    background-color: red;
+    color: gold;
+}
+.eliminar:hover{
+    background-color: yellow;
+    color: red;
+}
+
+#adicionar:hover{
+    background-color: gold;
+    color: red;
+    cursor: pointer;
+}
+.nova-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    width: 390px;
+    margin-top: 1rem;
+    height: 35px;
+    
+}
+.marcar{
+    font-size: 16px;
+    background-color: black;
+    color:green;
+    margin-left: auto;
+    
+}
+.marcar:hover{
+    color: black;
+    background-color: green;
+}
